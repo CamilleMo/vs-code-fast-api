@@ -11,7 +11,7 @@
 
 	// Set *default* container specific settings.json values on container create.
 	"settings": { 
-		"terminal.integrated.shell.linux": "/bin/bash",
+		"terminal.integrated.shell.linux": "/bin/zsh",
 		"python.pythonPath": "/usr/local/bin/python",
 		"python.linting.enabled": true,
 		"python.linting.pylintEnabled": true,
@@ -38,5 +38,5 @@
 	"postCreateCommand": "pip3 install -r requirements.txt",
 
 	// Comment out to connect as root instead.
-	"remoteUser": "vscode"
+	// "remoteUser": "vscode"
 }
